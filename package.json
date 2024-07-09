@@ -3,13 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@pixi/filter-kawase-blur": "^5.1.1",
+    "@tailwindcss/typography": "^0.5.13",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "debounce": "^2.1.0",
     "framer-motion": "^11.2.14",
+    "hsl-to-hex": "^1.0.0",
+    "pixi.js": "^8.2.2",
+    "preline": "^2.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.24.1",
     "react-scripts": "5.0.1",
+    "simplex-noise": "^4.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,22 +1,24 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
+  darkMode: "class",
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/preline/preline.js",
   ],
   theme: {
     extend: {
       colors: {
-        primary: '#1E40AF',
-        secondary: '#3B82F6',
+        // Black color
+        'space-dark': '#1A1A1A',  // Adjusted to black
+        // Dark gray color
+        'space-light': '#333333', // Adjusted to dark gray
+        'accent': '#FFA500',      // Orange accent color (unchanged)
       },
       backdropBlur: {
-        'none': 'none',
-        'sm': '4px',
-        'md': '12px',
-        'lg': '16px',
-        'xl': '24px',
+        xs: '2px',
       },
     },
   },
-  plugins: [],
+  plugins: [require('preline/plugin')],
 }

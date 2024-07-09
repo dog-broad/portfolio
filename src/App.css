@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.backdrop-blur-xs {
+  backdrop-filter: blur(2px);
+}
+
+
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.overlay__btn--colors {
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
