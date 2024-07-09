@@ -6,15 +6,15 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 function App() {
-  return (
-      <div>
-        <Header />
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-      </div>
-  );
+    return (
+        <div>
+            <Header />
+            <Hero />
+            <About />
+            <Projects />
+            <Contact />
+        </div>
+    );
 }
 
 export default App;
