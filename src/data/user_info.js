@@ -1,6 +1,6 @@
 const user_info = {
     main: {
-        name: "Guntupalli Rushyendra",
+        name: "Rushyendra Guntupalli",
         role: "Software Developer",
         description: "I use my knowledge of web development, Java programming, and API development to contribute to creative projects in dynamic and cooperative teams.",
         photo: "https://avatars.githubusercontent.com/u/74148058?v=4", // Replace with your actual photo URL if different
