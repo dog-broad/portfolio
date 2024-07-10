@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://dog-broad.github.io/portfolio",
+  "homepage": "https://dog-broad.github.io/",
   "dependencies": {
     "@pixi/filter-kawase-blur": "^5.1.1",
     "@tailwindcss/typography": "^0.5.13",
