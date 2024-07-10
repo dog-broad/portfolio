@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   darkMode: "class",
   content: [
     "./index.html",
@@ -8,12 +8,14 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"PT Sans"', 'sans-serif']
+      },
       colors: {
-        // Black color
-        'space-dark': '#1A1A1A',  // Adjusted to black
-        // Dark gray color
-        'space-light': '#333333', // Adjusted to dark gray
-        'accent': '#FFA500',      // Orange accent color (unchanged)
+        // Define your colors here
+        'space-dark': '#1A1A1A',
+        'space-light': '#333333',
+        'accent': '#ef4444',
       },
       backdropBlur: {
         xs: '2px',

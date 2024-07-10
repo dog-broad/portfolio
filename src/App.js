@@ -18,6 +18,7 @@ function App() {
     }, [theme]);
 
     const switchTheme = () => {
+        // href to https://github.com/dog-broad
         setTheme(theme === "dark" ? "light" : "dark");
     };
 
@@ -28,7 +29,7 @@ function App() {
                     <Route path="/" element={<Homepage />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
-            </BrowserRouter>x
+            </BrowserRouter>
         </AppContext.Provider>
     );
 }

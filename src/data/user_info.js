@@ -1,16 +1,15 @@
 const user_info = {
     main: {
         name: "Rushyendra Guntupalli",
-        role: "Software Developer",
+        role: "Wannabe Software Developer",
         description: "I use my knowledge of web development, Java programming, and API development to contribute to creative projects in dynamic and cooperative teams.",
         photo: "https://avatars.githubusercontent.com/u/74148058?v=4", // Replace with your actual photo URL if different
         email: "rushyendra.7004@gmail.com"
     },
     socials: {
-        facebook: "https://facebook.com",
-        twitter: "https://twitter.com",
-        instagram: "https://instagram.com",
-        linkedin: "https://linkedin.com"
+        github: "https://github.com/dog-broad",
+        linkedin: "https://www.linkedin.com/in/rushyendra-guntupalli-6a39252b3/",
+        discord: "https://discordapp.com/users/_rushi__",
     },
     about: "I'm a software developer with a passion for building impactful projects using Java, Python, Django, and web development technologies. My goal is to provide solutions that enhance user experiences and optimize workflows.",
     experience: [
@@ -53,6 +52,7 @@ const user_info = {
             title: "Currency Converter App",
             description: "As lead developer, I oversaw its development encompassing Java programming, Swing GUI design, API integration, and currency conversion logic. The app features intuitive elements like currency selection dropdowns, flag symbols for visual identification, and a switch option for swift currency conversion.",
             technologies: "Java, Swing, API Integration",
+            image: "https://i.imgur.com/WgwCFL2.png",
             link: "https://github.com/dog-broad/CurrencyConverterApp",
             github: "https://github.com/dog-broad/CurrencyConverterApp"
         },
@@ -60,6 +60,7 @@ const user_info = {
             title: "CodeProfileValidator",
             description: "Built on Django, this web application supports seamless profile checks on platforms like HackerRank, CodeChef, Codeforces, and GeeksforGeeks. Users can confirm profile existence by entering a username and platform name through a user-friendly API endpoint.",
             technologies: "Django, RESTful API, Python",
+            image: "https://blueshelltech.com/media/2021/05/python-django-1024x576.jpg",
             link: "https://codeprofilevalidator.onrender.com/",
             github: "https://github.com/dog-broad/CodeProfileValidator"
         },
@@ -67,6 +68,7 @@ const user_info = {
             title: "CMRIT2025Leaderboard",
             description: "A collaborative project aimed at creating an automated platform to track and display coding performance of participants from CMRIT. I contributed to data scraping, processing, and web interface development.",
             technologies: "Java, Python, SQLite, HTML/CSS/JavaScript",
+            image: "https://i.imgur.com/jFxwqe1.png",
             link: "https://gabyah92.github.io/CMRIT2025Leaderboard/",
             github: "https://github.com/gabyah92/CMRIT2025Leaderboard"
         },
@@ -74,6 +76,7 @@ const user_info = {
             title: "Morse Code Translator",
             description: "A Java-based project to translate text communications between English and Morse code with a user-friendly GUI. I implemented data structures, graphical features, and translation algorithms, and integrated external libraries to enhance functionality.",
             technologies: "Java, Swing, FlatDarkLaf",
+            image: "https://i.imgur.com/t6NBT3f.png",
             link: "https://github.com/dog-broad/MorseCodeTranslator",
             github: "https://github.com/dog-broad/MorseCodeTranslator"
         }

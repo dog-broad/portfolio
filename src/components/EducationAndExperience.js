@@ -9,7 +9,7 @@ const EducationAndExperience = () => {
     return (
         <section id="education-and-experience" className="mt-20 mb-20 mx-4 lg:mx-20 flex flex-col md:flex-row gap-4 md:gap-2">
             <div className="w-full md:w-[80%]">
-                <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
+                <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center" style={{ textShadow: '0 0 20px rgba(255, 255, 255, 0.5)' }}>
                     <FaLandmark className="text-xl text-red-800 dark:text-red-500"/>
                     Education
                 </h4>
@@ -42,7 +42,7 @@ const EducationAndExperience = () => {
                         </div>
                     </div>
                 ))}
-                <h4 className="text-xl dark:text-white mt-6 font-bold flex gap-2 items-center">
+                <h4 className="text-xl dark:text-white mt-6 font-bold flex gap-2 items-center" style={{ textShadow: '0 0 20px rgba(255, 255, 255, 0.5)' }}>
                     <PiCertificateFill className="text-2xl text-red-800 dark:text-red-500"/>
                     Certificates
                 </h4>
@@ -162,7 +162,7 @@ const EducationAndExperience = () => {
                 </div>
             </div>
             <div className="w-full">
-                <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center">
+                <h4 className="text-xl dark:text-white mb-4 font-bold flex gap-2 items-center" style={{ textShadow: '0 0 20px rgba(255, 255, 255, 0.5)' }}>
                     <FaBuilding className="text-2xl text-red-800 dark:text-red-500"/>
                     Experience
                 </h4>

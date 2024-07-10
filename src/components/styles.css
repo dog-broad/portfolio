@@ -1,0 +1,9 @@
+/* styles.css */
+.hover-text-shadow:hover {
+    text-shadow: 0 0 20px #ef4444;
+    filter: drop-shadow(0 0 20px #ef4444);
+}
+
+.hover-svg-shadow:hover {
+    filter: drop-shadow(0 0 20px #ef4444);
+}
