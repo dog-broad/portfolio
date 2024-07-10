@@ -11,7 +11,7 @@ const user_info = {
         linkedin: "https://www.linkedin.com/in/rushyendra-guntupalli-6a39252b3/",
         discord: "https://discordapp.com/users/_rushi__",
     },
-    about: "I'm a software developer with a passion for building impactful projects using Java, Python, Django, and web development technologies. My goal is to provide solutions that enhance user experiences and optimize workflows.",
+    about: "I'm a software developer wannabe with a passion for building impactful projects using Java, Python, Django, and web development technologies. My goal is to provide solutions that enhance user experiences and optimize workflows.",
     experience: [
         {
             position: "Full-Stack Developer Intern",
