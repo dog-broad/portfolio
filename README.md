@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This portfolio website is a personal project showcasing my skills, projects, and experience. It's built with React and styled using Tailwind CSS for a responsive and modern design.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Responsive Design:** Ensures the website looks great on devices of all sizes.
+- **Project Showcase:** Highlights individual projects with descriptions, technologies used, and links to live demos or GitHub repositories.
+- **Contact Form:** Allows visitors to easily get in touch.
+- **JSON Data:** Stores user information in a JSON file for easy access.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get a local copy up and running follow these simple steps.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+- Node.js
+- npm
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+npm install npm@latest -g
+```
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you have created a fork on GitHub, you can use `git clone` to clone the repo.
+```sh
+git clone https://github.com/your_username/repo_name
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Or you can use the current repository directly.
 
-### `npm run eject`
+```sh
+git clone https://github.com/dog-broad/portfolio.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install NPM packages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the development server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm start
+```
 
-## Learn More
+## Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project includes a GitHub Actions workflow for deploying the build to GitHub Pages.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Push your changes to the `main` branch.
+- The workflow defined in `.github/workflows/builddeploy.yaml` will automatically build and deploy your project.
 
-### Code Splitting
+_The above `builddeploy.yaml` is currently non-functional and will be updated._
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+I am using `Vercel` for deployment.
 
-### Analyzing the Bundle Size
+## Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [React](https://reactjs.org/) - The web framework used
+- [Tailwind CSS](https://tailwindcss.com/) - For styling
+- [GitHub Actions](https://github.com/features/actions) - For CI/CD and deployment
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Advanced Configuration
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [rushyendra-portfolio.vercel.app](https://rushyendra-portfolio.vercel.app/)
