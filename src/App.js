@@ -27,6 +27,7 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Homepage />} />
+                    <Route path="/portfolio" element={<NotFound />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </BrowserRouter>
