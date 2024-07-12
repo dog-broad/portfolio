@@ -24,7 +24,7 @@ const Hero = () => {
             />
 
             {/* Content */}
-            <div className="relative z-10">
+            <div className="relative">
                 <motion.img
                     src={user_info.main.photo}
                     alt="Profile"

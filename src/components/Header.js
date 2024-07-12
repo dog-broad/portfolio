@@ -10,7 +10,7 @@ const Header = () => {
     };
 
     return (
-        <header className="p-5 bg-space-light backdrop-blur-xs flex flex-col md:flex-row md:justify-between items-center">
+        <header className="z-10 sticky top-0 p-5 bg-space-light backdrop-blur-xs flex flex-col md:flex-row md:justify-between items-center">
             <div className="flex justify-between items-center w-full md:w-auto">
                 <div className="text-xl font-bold font-mono">My Portfolio</div>
                 <button

@@ -1,17 +1,17 @@
 const user_info = {
     main: {
         name: "Rushyendra Guntupalli",
-        role: "Wannabe Software Developer",
-        description: "I use my knowledge of web development, Java programming, and API development to contribute to creative projects in dynamic and cooperative teams.",
+        role: "Software Developer",
+        description: "I am a proactive software developer specializing in web development, Java programming, and API development. I contribute to creative projects within dynamic and collaborative teams.",
         photo: "https://avatars.githubusercontent.com/u/74148058?v=4", // Replace with your actual photo URL if different
         email: "rushyendra.7004@gmail.com"
-    },
+    },    
     socials: {
         github: "https://github.com/dog-broad",
         linkedin: "https://www.linkedin.com/in/rushyendra-guntupalli-6a39252b3/",
         discord: "https://discordapp.com/users/_rushi__",
     },
-    about: "I'm a software developer wannabe with a passion for building impactful projects using Java, Python, Django, and web development technologies. My goal is to provide solutions that enhance user experiences and optimize workflows.",
+    about: "I am a dedicated software developer with a strong interest in using Java, Python, Django, and web development technologies to create impactful projects. My focus is on delivering solutions that enhance user experiences and optimize workflows effectively.",
     experience: [
         {
             position: "Full-Stack Developer Intern",
@@ -79,6 +79,14 @@ const user_info = {
             image: "https://i.imgur.com/t6NBT3f.png",
             link: "https://github.com/dog-broad/MorseCodeTranslator",
             github: "https://github.com/dog-broad/MorseCodeTranslator"
+        },
+        {
+            title: "Rain Bucket Game",
+            description: "This arcade-style game developed using Python's pygame library challenges players to catch raindrops using a bucket controlled by either the player or an AI. Features include dynamic raindrop generation, score tracking, and adjustable game speed.",
+            technologies: "Python, Pygame, Artificial Intelligence",
+            image: "https://i.imgur.com/LXkBYu2.png",
+            link: "https://github.com/dog-broad/RainBucketGame",
+            github: "https://github.com/dog-broad/RainBucketGame"
         }
     ],
     certificates: [
