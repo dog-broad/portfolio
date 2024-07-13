@@ -85,8 +85,8 @@ const user_info = {
             description: "This arcade-style game developed using Python's pygame library challenges players to catch raindrops using a bucket controlled by either the player or an AI. Features include dynamic raindrop generation, score tracking, and adjustable game speed.",
             technologies: "Python, Pygame, Artificial Intelligence",
             image: "https://i.imgur.com/LXkBYu2.png",
-            link: "https://github.com/dog-broad/RainBucketGame",
-            github: "https://github.com/dog-broad/RainBucketGame"
+            link: "https://github.com/dog-broad/RainDropGameAI",
+            github: "https://github.com/dog-broad/RainDropGameAI"
         }
     ],
     certificates: [
