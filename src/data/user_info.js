@@ -75,7 +75,7 @@ const user_info = {
         {
             title: "Morse Code Translator",
             description: "A Java-based project to translate text communications between English and Morse code with a user-friendly GUI. I implemented data structures, graphical features, and translation algorithms, and integrated external libraries to enhance functionality.",
-            technologies: "Java, Swing, FlatDarkLaf",
+            technologies: "Java, Maven, Swing, FlatDarkLaf",
             image: "https://i.imgur.com/t6NBT3f.png",
             link: "https://github.com/dog-broad/MorseCodeTranslator",
             github: "https://github.com/dog-broad/MorseCodeTranslator"

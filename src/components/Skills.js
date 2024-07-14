@@ -1,7 +1,7 @@
 import { FaCss3Alt, FaGitAlt, FaHtml5, FaJava, FaNodeJs, FaPython, FaReact, FaWordpress } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { DiGithubAlt } from "react-icons/di";
-import { SiDjango, SiBootstrap, SiTailwindcss } from "react-icons/si";
+import { SiDjango, SiBootstrap, SiTailwindcss, SiApachemaven } from "react-icons/si";
 import './styles.css';
 
 function Skills() {
@@ -18,6 +18,9 @@ function Skills() {
         </span>
                 <span className="inline-flex items-center justify-between gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500 hover-text-shadow">
           <FaJava className="text-2xl" /> Java
+        </span>
+                <span className="inline-flex items-center justify-between gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500 hover-text-shadow">
+          <SiApachemaven className="text-2xl" /> Maven
         </span>
                 <span
                 className="inline-flex items-center justify-between gap-x-2 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500 hover-text-shadow">
