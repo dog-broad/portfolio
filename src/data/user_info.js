@@ -52,8 +52,8 @@ const user_info = {
             title: "Virtual Keyboard App",
             description: "A mobile-to-PC text transmission app allowing users to type on their PC using their Android device. It features dynamic IP and port configuration, last used memory, text speed control, and real-time message progress visualization.",
             technologies: "Android, Python, Java",
-            image: "https://i.imgur.com/08uK8CG.png", // Replace with actual image URL
-            link: "https://github.com/dog-broad/VirtualKeyboardApp",
+            image: "https://i.imgur.com/08uK8CG.png",
+            link: "https://dog-broad.github.io/Virtual-Keyboard-App/",
             github: "https://github.com/dog-broad/VirtualKeyboardApp"
         },
         {

@@ -2,25 +2,27 @@ import { useState, useEffect, useRef } from "react";
 import { FaCss3Alt, FaGitAlt, FaHtml5, FaJava, FaNodeJs, FaPython, FaReact, FaWordpress } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { DiGithubAlt } from "react-icons/di";
-import { SiDjango, SiBootstrap, SiTailwindcss, SiApachemaven } from "react-icons/si";
+import { SiDjango, SiBootstrap, SiTailwindcss, SiApachemaven, SiGithubactions, SiAndroid } from "react-icons/si";
 import { useMediaQuery } from "@react-hook/media-query";
 import './styles.css';
 
 const technologies = [
-    { icon: FaPython, name: 'Python' },
-    { icon: FaJava, name: 'Java' },
-    { icon: SiApachemaven, name: 'Maven' },
-    { icon: FaHtml5, name: 'HTML' },
-    { icon: FaCss3Alt, name: 'CSS' },
-    { icon: IoLogoJavascript, name: 'JavaScript' },
-    { icon: FaReact, name: 'React' },
-    { icon: SiDjango, name: 'Django' },
-    { icon: FaNodeJs, name: 'NodeJS' },
-    { icon: SiTailwindcss, name: 'TailwindCSS' },
-    { icon: SiBootstrap, name: 'Bootstrap' },
-    { icon: FaWordpress, name: 'WordPress' },
-    { icon: FaGitAlt, name: 'Git' },
-    { icon: DiGithubAlt, name: 'GitHub' }
+  { icon: FaPython, name: 'Python' },
+  { icon: FaJava, name: 'Java' },
+  { icon: SiApachemaven, name: 'Maven' },
+  { icon: FaHtml5, name: 'HTML' },
+  { icon: FaCss3Alt, name: 'CSS' },
+  { icon: IoLogoJavascript, name: 'JavaScript' },
+  { icon: FaReact, name: 'React' },
+  { icon: SiDjango, name: 'Django' },
+  { icon: FaNodeJs, name: 'NodeJS' },
+  { icon: SiTailwindcss, name: 'TailwindCSS' },
+  { icon: SiBootstrap, name: 'Bootstrap' },
+  { icon: FaWordpress, name: 'WordPress' },
+  { icon: SiAndroid, name: 'Android' },
+  { icon: FaGitAlt, name: 'Git' },
+  { icon: DiGithubAlt, name: 'GitHub' },
+  { icon: SiGithubactions, name: 'GitHub CI/CD' },
 ];
 
 function Skills() {
