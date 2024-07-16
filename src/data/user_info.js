@@ -29,7 +29,7 @@ const user_info = {
             school: "CMR Institute of Technology, Hyderabad",
             degree: "B.Tech. - CSE - Data Science",
             duration: "2021 - 2025",
-            image: "https://imgur.com/a4iMk80", // Replace with the actual image if available
+            image: "https://i.imgur.com/hECs5NL.png", // Replace with the actual image if available
             cgpa: "8.50 / 10"
         },
         {

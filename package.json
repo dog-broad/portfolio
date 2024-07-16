@@ -4,6 +4,7 @@
   "private": false,
   "dependencies": {
     "@pixi/filter-kawase-blur": "^5.1.1",
+    "@react-hook/media-query": "^1.1.1",
     "@tailwindcss/typography": "^0.5.13",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -27,8 +28,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
