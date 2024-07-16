@@ -29,7 +29,7 @@ const user_info = {
             school: "CMR Institute of Technology, Hyderabad",
             degree: "B.Tech. - CSE - Data Science",
             duration: "2021 - 2025",
-            image: "https://scontent.fhyd2-2.fna.fbcdn.net/v/t39.30808-6/301407898_447209350754090_989987982714722681_n.png?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=SrUab0MKPNEQ7kNvgEf-WeM&_nc_ht=scontent.fhyd2-2.fna&oh=00_AYDSwkT8cKWulVvCgLfT7gc0LrHiY2R4Gxjm_9uYL1sMzw&oe=66938797", // Replace with the actual image if available
+            image: "https://imgur.com/a4iMk80", // Replace with the actual image if available
             cgpa: "8.50 / 10"
         },
         {
