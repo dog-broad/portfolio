@@ -46,8 +46,6 @@ function Skills() {
             <div className={`${isMobile ? 'grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5' : 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5'} gap-4 mt-8`}>
                 {technologies.map((tech, index) => (
                     <span key={index} className={`inline-flex items-center justify-${isMobile ? 'center' : 'between'} gap-x-1.5 py-4 px-3 hover:-translate-y-1.5 transition-translate duration-500 rounded-xl font-medium bg-red-100 text-red-800 dark:bg-red-800/30 dark:text-red-500 hover-text-shadow`}
-                            onMouseEnter={() => isMobile && handleTechSelect(tech.name)}
-                            onMouseLeave={() => isMobile && handleTechSelect(tech.name)}
                             onClick={() => !isMobile && handleTechSelect(tech.name)}>
                         <tech.icon className="text-2xl" />
                         {!isMobile && <span>{tech.name}</span>}
