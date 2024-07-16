@@ -5,7 +5,7 @@ const user_info = {
         description: "I am a proactive software developer specializing in web development, Java programming, and API development. I contribute to creative projects within dynamic and collaborative teams.",
         photo: "https://avatars.githubusercontent.com/u/74148058?v=4", // Replace with your actual photo URL if different
         email: "rushyendra.7004@gmail.com"
-    },    
+    },
     socials: {
         github: "https://github.com/dog-broad",
         linkedin: "https://www.linkedin.com/in/rushyendra-guntupalli-6a39252b3/",
@@ -49,12 +49,12 @@ const user_info = {
     ],
     projects: [
         {
-            title: "Currency Converter App",
-            description: "As lead developer, I oversaw its development encompassing Java programming, Swing GUI design, API integration, and currency conversion logic. The app features intuitive elements like currency selection dropdowns, flag symbols for visual identification, and a switch option for swift currency conversion.",
-            technologies: "Java, Swing, API Integration",
-            image: "https://i.imgur.com/WgwCFL2.png",
-            link: "https://github.com/dog-broad/CurrencyConverterApp",
-            github: "https://github.com/dog-broad/CurrencyConverterApp"
+            title: "Virtual Keyboard App",
+            description: "A mobile-to-PC text transmission app allowing users to type on their PC using their Android device. It features dynamic IP and port configuration, last used memory, text speed control, and real-time message progress visualization.",
+            technologies: "Android, Python, Java",
+            image: "https://i.imgur.com/08uK8CG.png", // Replace with actual image URL
+            link: "https://github.com/dog-broad/VirtualKeyboardApp",
+            github: "https://github.com/dog-broad/VirtualKeyboardApp"
         },
         {
             title: "CodeProfileValidator",
@@ -87,6 +87,14 @@ const user_info = {
             image: "https://i.imgur.com/LXkBYu2.png",
             link: "https://github.com/dog-broad/RainDropGameAI",
             github: "https://github.com/dog-broad/RainDropGameAI"
+        },
+        {
+            title: "Currency Converter App",
+            description: "As lead developer, I oversaw its development encompassing Java programming, Swing GUI design, API integration, and currency conversion logic. The app features intuitive elements like currency selection dropdowns, flag symbols for visual identification, and a switch option for swift currency conversion.",
+            technologies: "Java, Swing, API Integration",
+            image: "https://i.imgur.com/WgwCFL2.png",
+            link: "https://github.com/dog-broad/CurrencyConverterApp",
+            github: "https://github.com/dog-broad/CurrencyConverterApp"
         }
     ],
     certificates: [
