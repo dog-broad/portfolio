@@ -50,12 +50,12 @@ const user_info = {
     projects: [
         {
             title: "Virtual Keyboard App",
-            description: "A mobile-to-PC text transmission app allowing users to type on their PC using their Android device. It features dynamic IP and port configuration, last used memory, text speed control, and real-time message progress visualization.",
-            technologies: "Android, Python, Java",
+            description: "A mobile-to-PC text transmission app that allows users to type on their PC using their Android device via a TCP connection. The app is built using Java for Android, while a server built on Python handles incoming messages over TCP.",
+            technologies: "Android (Java), Python, TCP",
             image: "https://i.imgur.com/08uK8CG.png",
             link: "https://dog-broad.github.io/Virtual-Keyboard-App/",
             github: "https://github.com/dog-broad/VirtualKeyboardApp"
-        },
+        },        
         {
             title: "CodeProfileValidator",
             description: "Built on Django, this web application supports seamless profile checks on platforms like HackerRank, CodeChef, Codeforces, and GeeksforGeeks. Users can confirm profile existence by entering a username and platform name through a user-friendly API endpoint.",
